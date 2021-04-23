@@ -44,18 +44,18 @@ const fetchPokemon = async () => {
 
 // Creating the text content and appending everything to the page
         pokeName.textContent = `#${details.id}: ${poke.name.toUpperCase()}`
-        pokeType.textContent = "Type:"
-        pokeType1.textContent =  details.types[0].type.name;
+        pokeType.textContent = "TYPE:"
+        pokeType1.textContent =  "*" + details.types[0].type.name;
         if (details.types[1]){
-            pokeType2.textContent = details.types[1].type.name;
+            pokeType2.textContent = "*" + details.types[1].type.name;
         }
-        pokeHeight.textContent = `Weight: ${details.weight}`;
-        pokeWeight.textContent = `Height: ${details.height}`;
-        pokeAbilities.textContent = "Abilities:"
+        pokeHeight.textContent = `WEIGHT: ${details.weight}`;
+        pokeWeight.textContent = `HEIGHT: ${details.height}`;
+        pokeAbilities.textContent = "ABILITIES:"
         if(details.abilities[0]){
-        pokeAbility1.textContent = details.abilities[0].ability.name};
+        pokeAbility1.textContent = "*" + details.abilities[0].ability.name};
         if (details.abilities[1]){
-                pokeAbility2.textContent = details.abilities[1].ability.name};
+                pokeAbility2.textContent = "*" + details.abilities[1].ability.name};
         
         pokeDiv.appendChild(pokeName);
         pokeDiv.appendChild(img);

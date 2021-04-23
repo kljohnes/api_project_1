@@ -51,9 +51,14 @@ h4 {
 .card-inner {
     border: 2px solid white;
     border-radius: 5px;
+    font-size: 18px;
 }
 
-
+footer {
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+}
 
 
 
