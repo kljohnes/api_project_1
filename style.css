@@ -1,0 +1,60 @@
+
+body {
+    background-image: linear-gradient(to right, black, red, yellow, red, black);
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600
+}
+
+#header{
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 72px;
+}
+
+h4 {
+    color: white;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+   from {color: black};
+    to {color: red;}
+}
+
+.card-group {
+   justify-content: center;
+   margin-left: 10px;
+   margin-right: 10px;
+
+}
+.card-mb-3 {
+    width: 300px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.card-header {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.card-inner {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+
+
+
+
+
