@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to right, black, red, yellow, red, black);
+    background-image: linear-gradient(to right, black, gray, orange, red, orange, gray, black);
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600
@@ -41,6 +41,7 @@ h4 {
     padding: 10px;
     margin: 20px;
     text-align: center;
+    background-color: black;
 }
 
 .card-mb-3:hover {
